@@ -1,0 +1,38 @@
+:root {
+    --base: #15d7ff;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.controls {
+    margin-bottom: 50px;
+    font-size: 1.75rem;
+}
+
+input {
+    width: 100px;
+}
+
+img {
+    width: 60vw;
+    height: auto;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
